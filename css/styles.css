@@ -4,6 +4,10 @@ body {
   grid-template: auto 1fr auto / auto 1fr auto;
   font-family: Arial, Helvetica, sans-serif;
   background-color: antiquewhite;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
 }
 
 header {
@@ -11,6 +15,8 @@ header {
   padding: 2rem;
   grid-column: 1 / 4;
   justify-content: space-between;
+  background-color: #343131;
+  border
 }
 
 .nav-items {
@@ -24,12 +30,15 @@ header {
 
 .item {
   font-size: 24px;
-  color: #000;
+  color: #fff;
 }
 
 .left-sidebar {
   // background: lightblue;
   grid-column: 1 / 2;
+  width: 150px;
+  text-align: center;
+  font-size: 24px;
 }
 
 .header-logo {
@@ -48,13 +57,17 @@ main {
 .right-sidebar {
   // background: yellow;
   grid-column: 3 / 4;
+  width: 150px;
+  text-align: center;
+  font-size: 24px;
 }
 
 footer {
-  // background: wheat;
+  background-color: #343131;
   padding: 2rem;
   text-align: center;
   grid-column: 1 / 4;
+  color: white;
 }
 
 .left-sidebar,
