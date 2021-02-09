@@ -16,6 +16,9 @@ header {
   grid-column: 1 / 4;
   justify-content: space-between;
   background-color: #343131;
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url(../images/wisteria-tree.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .headers-big {
